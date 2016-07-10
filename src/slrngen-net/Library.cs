@@ -77,7 +77,7 @@ namespace Hellosaint.SLRN
             }
             return sum;
         }
-
+        
         private static int SumOdd(String code) 
         {
             int sum = 0;
@@ -94,6 +94,5 @@ namespace Hellosaint.SLRN
         {
             return i % 2 == 0;
         }
-
     }
 }
