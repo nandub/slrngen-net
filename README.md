@@ -1,2 +1,2 @@
 # slrngen-net
-Ported from slrngen to .NET Core
+Ported from Java slrngen to .NET Core
