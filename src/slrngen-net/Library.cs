@@ -62,7 +62,7 @@ namespace Hellosaint.SLRN
 
         private static int GetEanVd(int s) 
         {
-            return 10 - (s % 10);
+            return (10 - (s % 10)) % 10;
         }
 
         private static int SumEven(String code) 
